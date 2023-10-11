@@ -18,19 +18,19 @@ const Navbar = () => {
                     <div className='hidden md:flex items-center space-x-6 font-bold text-slate-500 '>
                         {/* nav button item */}
                         <div className='group hover:text-black'>
-                            <a className='font-bold text-lg' lang='ar' dir='rtl' href='#'>المشاتل</a>
+                            <a className='font-extrabold text-2xl font-harmattan' lang='ar' dir='rtl' href='#'>المشاتل</a>
                             {/* The border */}
                             <div className='mx-2 mt-1 duration-500 border-b-4 border-black opacity-0 group-hover:opacity-100'></div>
                         </div>
                         {/* nav button item */}
                         <div className='group hover:text-black'>
-                            <a className='font-bold text-lg' lang='ar' dir='rtl' href='#'>المنافذ</a>
+                            <a className='font-extrabold text-2xl font-harmattan' lang='ar' dir='rtl' href='#'>المنافذ</a>
                             {/* The border */}
                             <div className='mx-2 mt-1 duration-500 border-b-4 border-black opacity-0 group-hover:opacity-100'></div>
                         </div>
                         {/* nav button item */}
                         <div className='group hover:text-black'>
-                            <a className='font-bold text-lg' lang='ar' dir='rtl' href='#'>القطاعات</a>
+                            <a className='font-extrabold text-2xl font-harmattan' lang='ar' dir='rtl' href='#'>القطاعات</a>
                             {/* The border */}
                             <div className='mx-2 mt-1 duration-500 border-b-4 border-black opacity-0 group-hover:opacity-100'></div>
                         </div>
