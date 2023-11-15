@@ -4,17 +4,17 @@ import { BiSolidMessageAltDots } from "react-icons/bi"
 const Features = () => {
     return (
         <div className='container mx-auto px-3 mt-24 py-10 '>
-            <h2 className='font-extrabold text-7xl lg:text-5xl text-center font-harmattan mb-20' lang='ar' dir='rtl'>من نحــــن ؟</h2>
+            <h2 className='font-extrabold text-6xl lg:text-5xl text-center font-elMessiri mb-20' lang='ar' dir='rtl'>من نحــــن ؟</h2>
 
             {/* The features boxes*/}
-            <div className='relative container flex flex-col space-y-16 items-start px-6 mx-auto md:flex-row md:space-x-7'>
+            <div className='relative container flex flex-col space-y-16 items-start px-6 mx-auto md:flex-row md:space-x-8'>
                 {/* The horizontial lines */}
-                <div className='hidden absolute top-24 w-10/12 left-16 h-3 bg-green-600 lg:block'>
+                <div className='hidden absolute top-24 w-10/12 left-16 h-3 bg-green-600 md:block'>
                 </div>
-                {/* The vertical lines */}
-                <div className='absolute w-3 left-1/2 h-full -ml-1 bg-green-600 lg:hidden'>
-                </div>
-                {/* The feature box itemr */}
+                {/* The vertical lines
+                <div className='absolute w-3 left-1/2 h-full -ml-1 bg-green-600 md:hidden'>
+                </div> */}
+                {/* The feature box container */}
                 <div className='relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3'>
                     {/* The icon positioning */}
                     <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
@@ -38,8 +38,8 @@ const Features = () => {
                     </p>
                 </div>
 
-                {/* The feature box itemr */}
-                <div className='relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3'>
+                {/* The feature box container */}
+                <div className='relative flex flex-col mt-24 p-6 space-y-6 bg-white rounded-lg md:mt-8 md:w-1/3'>
                     {/* The icon positioning */}
                     <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
                         {/* the icon container for background & center */}
@@ -57,7 +57,7 @@ const Features = () => {
                     </p>
                 </div>
 
-                {/* The feature box itemr */}
+                {/* The feature box container */}
                 <div className='relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3'>
                     {/* The icon positioning */}
                     <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
